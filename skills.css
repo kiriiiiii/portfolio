@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Kalam', cursive;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.vertical {
+    margin:50px;
+    margin-top: -60px;
+    position: absolute;
+    border-left: 1px solid black;
+    height: 697px;
+}
+#le{
+    margin-left: 50px;
+}
+#ld{
+    position:absolute;
+    bottom: 0%;
+    right: 0%;
+}
+#p2{
+    position: absolute;
+    font-weight: bolder;
+    top:30%;
+    right:13%;
+    font-size:larger;
+    font-size: 30px;
+    color:rgb(38, 62, 62);
+}
+#p1{
+    position: absolute;
+    font-weight: bolder;
+    bottom:20%;
+    left:23%;
+    font-size:larger;
+    font-size: 30px;
+    color:rgb(38, 62, 62);
+}
+p.text {
+    writing-mode:vertical-lr; 
+    line-height: 50px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    margin-top: -330px;
+    font-size: larger;
+
+  }
+  
+p.text1 {
+    writing-mode: vertical-lr;
+    line-height: 50px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    margin-top:230px ;
+    font-size: larger;
+  }

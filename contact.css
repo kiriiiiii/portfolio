@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Kalam&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Kalam', cursive;
+    scroll-behavior: smooth;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.vertical {
+    margin: 50px;
+    margin-top: -60px;
+    position: absolute;
+    border-left: 1px solid black;
+    height: 697px;
+}
+
+p.text {
+    writing-mode: vertical-lr;
+    line-height: 50px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    margin-top: 80px;
+    font-size: larger;
+
+}
+#le{
+    position: absolute;
+    left:6%;
+    top: 12%;
+}
+#port{
+    position: absolute;
+    bottom: 12%;
+    left:6%;
+    font-weight: bold;
+    text-decoration: solid black;
+    font-size: 80px;
+}
+#po2{
+    position: absolute;
+    bottom: -1%;
+    left:6%;
+    font-weight: bold;
+    text-decoration: solid black;
+    font-size: 80px;
+}
+.next{
+    position: absolute;
+    font-size: 50px;
+    right: 43%;
+    bottom:18%;
+    color:black;
+    display: flex;
+}
+#yy1{
+    position: absolute;
+    right:38%;
+    bottom:15%;
+}
+#yy2{
+    position: absolute;
+    right:10%;
+    bottom:15%;
+}
+#yy3{
+    position: absolute;
+    right:11.7%;
+    bottom:1%;
+}
+#yy4{
+    position: absolute;
+    right:32%;
+    width:200px;
+    overflow: hidden;
+    bottom:-8%;
+}
+.next1{
+    position: absolute;
+    font-size: 50px;
+    right: 20%;
+    bottom: 18%;
+    color:black;
+    display: flex;
+}
+#next2{
+    position: absolute;
+    font-size: 50px;
+    right: 20%;
+    bottom: 3%;
+    color:black;
+    display: flex;
+}
+#yy{
+    font-size: 23px;
+    color:black;
+    padding-left:30px;
+    font-weight:bolder;
+}
+#next3{
+    position: absolute;
+    font-size: 50px;
+    right: 40%;
+    bottom: 3%;
+    color:black;
+    display: flex;
+}
+p.text1 {
+    writing-mode: vertical-lr;
+    line-height: 50px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    margin-top: 230px;
+    right: -100%;
+    font-size: larger;
+}
